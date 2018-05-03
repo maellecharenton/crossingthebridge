@@ -1,8 +1,44 @@
 h1 {
 font-family: 'UnifrakturMaguntia', cursive;
-font-size: 3em; 
+font-size: 5em;
+color: #561D25;
+align-items: center;
+justify-content: center;
+margin-left: 25%;
+margin-right: 20%;
+}
+
+h2 {
+font-family: 'UnifrakturMaguntia', cursive;
+font-size: 2em;
+color: #555358;
+align-items: center;
+justify-content: center;
+
 }
 
 body {
 font-family: 'Metamorphous', cursive;
+background-color: #D4AA7D;
+color: #EFD09E;
+}
+
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  color: #93032E;
+}
+
+video#video {
+    align-items: center;
+    top: 50%;
+    left: 50%;
 }
