@@ -1,3 +1,9 @@
+body {
+font-family: 'Metamorphous', cursive;
+background-color: black;
+color: #EFD09E;
+}
+
 h1 {
 font-family: 'UnifrakturMaguntia', cursive;
 font-size: 5em;
@@ -17,12 +23,6 @@ justify-content: center;
 
 }
 
-body {
-font-family: 'Metamorphous', cursive;
-background-color: #D4AA7D;
-color: #EFD09E;
-}
-
 p{
   padding-left: 30px;
   padding-right: 30px;
@@ -33,12 +33,135 @@ p{
   margin-right: 50px;
 }
 
+li {
+  color: #EFD09E;
+}
+
 a {
-  color: #93032E;
+  color: #EFD09E;
+  font-size: 1em;
 }
 
 video#video {
     align-items: center;
     top: 50%;
     left: 50%;
+}
+
+.choice00 .bridge {
+  background: #000 url('images/Illu_fond.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice001 .bridge1  {
+  background: #000 url('images/Illu_perso.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+
+
+}
+
+.choice01 .bridge  {
+  background: #000 url('images/Crossing-16min-ABCD-1.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice02 .bridge {
+  background: #000 url('images/Crossing-16min-CD-BA-2.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice03 .bridge {
+  background: #000 url('images/Crossing-16min-ACD-B-3.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice04 .bridge {
+  background: #000 url('images/Crossing-16min-D-ABC-4.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice05 .bridge {
+  background: #000 url('images/Crossing-16min-AD-BC-5.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice06 .bridge {
+  background: #000 url('images/Illu_perte.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice07 .bridge {
+  background: #000 url('images/Crossing-21min-BD-AC-2.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice08 .bridge {
+  background: #000 url('images/Illu_perte.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice09 .bridge {
+  background: #000 url('images/Crossing-Réussite-CD-BA-2.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice10 .bridge {
+  background: #000 url('images/Crossing-Réussite-A-DCB-4.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice11 .bridge {
+  background: #000 url('images/Crossing-Réussite-AB-CD-5.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice12 .bridge {
+  background: #000 url('images/Crossing-Réussite-ABCD-6-Final.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.choice13 .bridge {
+  background: #000 url('images/Illu_Réussite.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.back {
+  display: flex;
+}
+
+.bridge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  align-content: center;
+}
+
+.bridge1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  align-content: center;
+  font-size: 2em;
+}
+
+.choices {
+  list-style-type: none;
+  columns: 4;
 }
